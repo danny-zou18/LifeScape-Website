@@ -7,6 +7,9 @@ jobs:
         
         name: ESLint
         runs-on: ubuntu-latest
+        defaults:
+          run:
+            working-directory: ./lifescape
 
         steps:
             - uses: actions/checkout@v2
