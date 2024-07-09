@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-
 interface NavBtnProp {
   href: string;
   whereto: string;
@@ -23,8 +22,9 @@ const NavBtn: React.FC<NavBtnProp> = ({ href, whereto }) => {
 
   return (
     <motion.div
-      className="group rounded-sm p-2 ml-10 relative first:ml-0"
+      className="White-Bg"
       whileHover={whileHover}
+      style={{ backgroundColor: "white", padding: "10px"}}
     >
       <Link href={href} className="text-primary">
         {whereto}
@@ -40,12 +40,12 @@ const NavBtn: React.FC<NavBtnProp> = ({ href, whereto }) => {
 };
 
 const Navbar: React.FC = () => {
-
   return (
-    <div className="flex bg-background lg:flex-row xsm:flex-col justify-between items-center py-2 lg:w-[80%] xsm:w-full ml-auto mr-auto pt-2 fixed top-0 left-1/2 transform -translate-x-1/2 z-40 ">
+    <div className="flex flex-row justify-between z-40 ">
       <div className="flex flex-row  ">
         <NavBtn href="/" whereto="Home" />
-        <NavBtn href="/portfolio" whereto="Portfolio" />
+        <NavBtn href="/someDir" whereto="Github" />
+        <NavBtn href="/someDir" whereto="Contact" />
         <NavBtn href="/about" whereto="About" />
       </div>
       
