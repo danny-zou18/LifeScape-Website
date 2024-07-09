@@ -22,9 +22,9 @@ const NavBtn: React.FC<NavBtnProp> = ({ href, whereto }) => {
 
   return (
     <motion.div
-      className="White-Bg"
+      className="bg-gray-100 rounded-lg relative first:ml-0"
       whileHover={whileHover}
-      style={{ backgroundColor: "white", padding: "10px"}}
+      style={{ backgroundColor: "bg-gray-100", padding: "10px"}}
     >
       <Link href={href} className="text-primary">
         {whereto}
@@ -41,7 +41,10 @@ const NavBtn: React.FC<NavBtnProp> = ({ href, whereto }) => {
 
 const Navbar: React.FC = () => {
   return (
-    <div className="flex flex-row justify-between z-40 ">
+    <div className="flex flex-row justify-between z-40 w-[80%] mx-auto rounded-lg bg-gray-100 p-4 shadow-lg">
+      <div className="dummy  ">
+        {/* put logo here */}
+      </div>
       <div className="flex flex-row  ">
         <NavBtn href="/" whereto="Home" />
         <NavBtn href="/someDir" whereto="Github" />
