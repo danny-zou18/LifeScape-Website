@@ -3,11 +3,19 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-red-400 w-full h-[100vh] ">
-      <div className="w-[65%] flex flex-row ">
-        <div className="w-[60%] flex flex-col justify-center items-start ">
-          <h1 className="text-3xl ">Hello</h1>
-          <h1 className="text-2xl">Hello ^2</h1>
-          <div className="bg-green-300 text-black rounded-full p-4 " onClick={}>
+      <div className="w-[75%] flex flex-row gap-12">
+        <div className="w-[60%] flex flex-col justify-center items-start space-y-4">
+          <h1 className="text-2xl font-bold ">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo
+          </h1>
+          <h1 className="text-lg">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis,
+          </h1>
+          <div className="bg-green-300 text-black rounded-full p-4 ">
             Get Started
           </div>
         </div>
