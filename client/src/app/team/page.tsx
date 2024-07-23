@@ -4,14 +4,20 @@ import './TeamPage.css';
 const TeamPage: React.FC = () => {
     return (
         <div>
+            <br></br>
+
             <div className="rcos2024">
-                <h1>Meet the RCOS Team of Summer 2024!</h1>
+                <center>
+                    <h1>Meet the RCOS Team of Summer 2024!</h1>
+                </center>
             </div>
+
+            <br></br>
         
             <div className="row">
                 <div className="column">
                     <div className="card">
-                        <img src="danny.jpg" alt="Danny" style={{ width: "100%" }} />
+                        <img src="danny.jpg" alt="Danny_Pic" style={{ width: "100%" }} />
                         <div className="container">
                             <h2>Danny Zou</h2>
                             <p className="title">Founder / Lead Programmer</p>
@@ -24,7 +30,7 @@ const TeamPage: React.FC = () => {
 
                 <div className="column">
                     <div className="card">
-                        <img src="justin.jpg" alt="Justin" style={{ width: "100%" }} />
+                        <img src="justin.jpg" alt="Justin_Pic" style={{ width: "100%" }} />
                         <div className="container">
                             <h2>Justin Kim</h2>
                             <p className="title">Programmer</p>
@@ -37,7 +43,7 @@ const TeamPage: React.FC = () => {
 
                 <div className="column">
                     <div className="card">
-                        <img src="ramzey.jpg" alt="Ramzey" style={{ width: "100%" }} />
+                        <img src="ramzey.jpg" alt="Ramzey_Pic" style={{ width: "100%" }} />
                         <div className="container">
                             <h2>Ramzey Youss</h2>
                             <p className="title">Programmer</p>
