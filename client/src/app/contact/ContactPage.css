@@ -1,0 +1,70 @@
+/* ContactPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #contact_form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact_form .row {
+    margin-bottom: 20px;
+  }
+  
+  #contact_form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact_form .input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #contact_form .input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  #contact_form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  #contact_form #submit_button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact_form #submit_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error_message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
