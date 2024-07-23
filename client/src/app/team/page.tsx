@@ -21,8 +21,8 @@ const TeamPage: React.FC = () => {
                         <div className="container">
                             <h2>Danny Zou</h2>
                             <p className="title">Founder / Lead Programmer</p>
-                            <p>description</p>
-                            <p>example@example.com</p>
+                            <p>Some bio</p>
+                            <p>zoud@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const TeamPage: React.FC = () => {
                             <h2>Justin Kim</h2>
                             <p className="title">Programmer</p>
                             <p>Some bio</p>
-                            <p>example@example.com</p>
+                            <p>kims35@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const TeamPage: React.FC = () => {
                             <h2>Ramzey Youss</h2>
                             <p className="title">Programmer</p>
                             <p>Some bio</p>
-                            <p>example@example.com</p>
+                            <p>youssr@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
                     </div>
