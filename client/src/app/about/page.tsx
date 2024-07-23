@@ -15,7 +15,11 @@ const AboutPage: React.FC = () => {
                     </div>
                     <div>
                         <p>
-                            
+                        LifeScape is an innovative mobile application designed to transform your personal growth and productivity journey into an engaging and immersive experience.
+                        Inspired by the dynamic elements of Massively Multiplayer Online Role-Playing Games (MMO-RPGs),
+                        LifeScape provides a unique environment where users can set personal goals on a daily, weekly, monthly, yearly, or custom basis, track their progress,and stay motivated.
+                        We are a passionate startup emerging from the Rensselaer Center for Open Source (RCOS) during the summer ARCH semester of 2024.
+                        Our vision is to revolutionize the way individuals approach personal development by turning everyday tasks into exciting quests.
                         </p>
                         <button>Read More...</button>
                     </div>
