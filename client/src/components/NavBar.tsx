@@ -49,6 +49,7 @@ const Navbar: React.FC = () => {
         <NavBtn href="/" whereto="Home" />
         <NavBtn href="/about" whereto="About" />
         <NavBtn href="/team" whereto="Meet Our Team!" />
+        <NavBtn href="/path" whereto="Adventure Paths" />
         <NavBtn href="/contact" whereto="Contact Us" />
         <NavBtn href="https://github.com/danny-zou18/LifeScape" whereto="Github" />
       </div>
