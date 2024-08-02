@@ -96,7 +96,6 @@ const GlobalProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
             console.log(error);
           }
         }
-        router.push("/home");
       } else {
         console.log("User logged out");
         setLoggedIn(false);
