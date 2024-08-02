@@ -55,19 +55,19 @@ const AdventurePaths: React.FC = () => {
         <div>
             <div className="description">
                 <center>
-                    <h1>Find Your Adventure Path</h1>
+                    <h1>Find Your Adventure Path!</h1>
                     <h3>Discover the best hero class for you to explore</h3>
                 </center>
             </div>
             <div className="items">
                 <div className="item active">
-                    <img src="images/default.jpg" alt="placeholder" />
+                    <img src="images/knight.png" alt="placeholder" />
                 </div>
                 <div className="item next">
-                    <img src="images/default.jpg" alt="placeholder" />
+                    <img src="images/healer.png" alt="placeholder" />
                 </div>
                 <div className="item">
-                    <img src="images/default.jpg" alt="placeholder" />
+                    <img src="images/mage.png" alt="placeholder" />
                 </div>
                 <div className="item">
                     <img src="images/default.jpg" alt="placeholder" />

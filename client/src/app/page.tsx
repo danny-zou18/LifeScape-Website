@@ -4,7 +4,7 @@ import './HomePage.css';
 const HomePage: React.FC = () => {
     return (
         <div>
-          
+            
         </div>
     );
 };
