@@ -52,7 +52,7 @@ const AdventurePaths: React.FC = () => {
     }, []);
 
     return (
-        <div>
+        <div className="adventure-paths-container">
             <div className="description">
                 <center>
                     <h1>Find Your Adventure Path!</h1>
@@ -61,23 +61,23 @@ const AdventurePaths: React.FC = () => {
             </div>
             <div className="items">
                 <div className="item active">
-                    <img src="images/knight.png" alt="placeholder" />
+                    <img src="images/knight.png" alt="Knight" />
                 </div>
                 <div className="item next">
-                    <img src="images/healer.png" alt="placeholder" />
+                    <img src="images/healer.png" alt="Healer" />
                 </div>
                 <div className="item">
-                    <img src="images/mage.png" alt="placeholder" />
+                    <img src="images/mage.png" alt="Mage" />
                 </div>
                 <div className="item">
-                    <img src="images/default.jpg" alt="placeholder" />
+                    <img src="images/default.jpg" alt="Default" />
                 </div>
                 <div className="item prev">
-                    <img src="images/default.jpg" alt="placeholder" />
+                    <img src="images/default.jpg" alt="Default" />
                 </div>
                 <div className="button-container">
-                    <div className="button"></div>
-                    <div className="button"></div>
+                    <div className="button">&lt;</div>
+                    <div className="button">&gt;</div>
                 </div>
             </div>
         </div>
