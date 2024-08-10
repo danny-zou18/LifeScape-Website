@@ -15,23 +15,45 @@ const AboutPage: React.FC = () => {
                     </div>
                     <div>
                         <p>
-                        LifeScape is an innovative mobile application designed to transform your personal growth and productivity journey into an engaging and immersive experience.
-                        Inspired by the dynamic elements of Massively Multiplayer Online Role-Playing Games (MMO-RPGs),
-                        LifeScape provides a unique environment where users can set personal goals on a daily, weekly, monthly, yearly, or custom basis, track their progress, and stay motivated.
-                        In LifeScape, your reallife tasks and objectives become exciting quests.
-                        Completing these goals is akin to completing a quest in a game, unlocking new levels and rewards that mirror your accomplishments in real life.
-                        Each user has their own character that they can level up and upgrade using the rewards earned from completing quests.
-                        This gamified approach adds an extra layer of motivation to everyday activities.
-                        Moreover, LifeScape allows users to tailor their characters to specific classes based on their daily activities.
-                        For example, a user who studies a lot can develop their character into a mage, while someone who works out frequently can evolve their character into a barbarian of some sort.
-                        This customization adds a personalized touch to the experience, making the journey of personal growth more relatable and enjoyable.
-                        By turning personal development into a game-like adventure, LifeScape aims to make personal growth and productivity both fun and rewarding.
+                            LifeScape is an innovative mobile application designed to transform your personal growth and productivity journey into an engaging and immersive experience.
+                            Inspired by the dynamic elements of Massively Multiplayer Online Role-Playing Games (MMO-RPGs),
+                            LifeScape provides a unique environment where users can set personal goals on a daily, weekly, monthly, yearly, or custom basis, track their progress, and stay motivated.
+                            In LifeScape, your real-life tasks and objectives become exciting quests.
+                            Completing these goals is akin to completing a quest in a game, unlocking new levels and rewards that mirror your accomplishments in real life.
+                            Each user has their own character that they can level up and upgrade using the rewards earned from completing quests.
+                            This gamified approach adds an extra layer of motivation to everyday activities.
+                            Moreover, LifeScape allows users to tailor their characters to specific classes based on their daily activities.
+                            For example, a user who studies a lot can develop their character into a mage, while someone who works out frequently can evolve their character into a barbarian of some sort.
+                            This customization adds a personalized touch to the experience, making the journey of personal growth more relatable and enjoyable.
+                            By turning personal development into a game-like adventure, LifeScape aims to make personal growth and productivity both fun and rewarding.
                         </p>
                         <button>Read More...</button>
                     </div>
                 </div>
             </section>
 
+            <section className="about">
+                <h1>Software Design</h1>
+                <p style={{ fontWeight: 'bold' }}>
+                    The technologies we use to build our application...
+                </p>
+                <div className="about-info">
+                    <div>
+                        <p>
+                            Our project is built almost entirely in TypeScript, with our frontend/UIs built with React Native/Expo and our backend/APIs built with ExpressJS.
+                            React Native provides an easy way to develop a mobile application, while Express is simple but also dependable, making them the perfect combo for many team members who are new to both concepts.
+                        </p>
+                        <br></br>
+                        <p>
+                            We also use Firebase for user authentication and authorization, while all other data is stored in PostgreSQL.
+                        </p>
+                        <br></br>
+                        <p>
+                            We are also planning on using Godot to create the game portion of our application, since it supports easy integration into most existing frameworks and operating systems.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
             <footer>
                 <p>&copy; Founded 2024 RCOS Summer.</p>
