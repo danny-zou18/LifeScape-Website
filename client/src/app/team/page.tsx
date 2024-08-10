@@ -21,7 +21,7 @@ const TeamPage: React.FC = () => {
                         <div className="container">
                             <h2>Danny Zou</h2>
                             <p className="title">Founder / Lead Programmer</p>
-                            <p>Some bio</p>
+                            <p>I worked on Full-Stack features, this included functionality for user creation, character creation, character overview, tasks, habits and routines.</p>
                             <p>zoud@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
@@ -34,7 +34,7 @@ const TeamPage: React.FC = () => {
                         <div className="container">
                             <h2>Justin Kim</h2>
                             <p className="title">Programmer</p>
-                            <p>Some bio</p>
+                            <p>I worked on the navigation bar as well as the subpages including the about page, team page, adventure paths, etc.</p>
                             <p>kims35@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
@@ -47,7 +47,7 @@ const TeamPage: React.FC = () => {
                         <div className="container">
                             <h2>Ramzey Youss</h2>
                             <p className="title">Programmer</p>
-                            <p>Some bio</p>
+                            <p>I designed UI components for the home page,  the  login / signup screens, and the users page for the website.</p>
                             <p>youssr@rpi.edu</p>
                             <p><button className="button">Contact</button></p>
                         </div>
