@@ -11,7 +11,7 @@ const AboutPage: React.FC = () => {
                 </p>
                 <div className="about-info">
                     <div className="about-img">
-                        <img src="" alt="logo_pic" />
+                        <img src="images/logo.png" alt="logo_pic" />
                     </div>
                     <div>
                         <p>
